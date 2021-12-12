@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="@string/txtV_dang_nhap_1"
+        android:textColor="@color/text_color"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtV_dang_nhap_2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="35sp"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtGmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Nhập gmail đã đăng ký"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:background="@drawable/bg_dangnhap_white"
+        android:padding="15dp"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/edtPassLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_dangnhap_white"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:hint="Mật khẩu"/>
+
+    <Button
+        android:id="@+id/btnDang_Nhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:text="@string/btn_dang_nhap"
+        android:textColor="@color/text_color"
+        android:backgroundTint="@color/button_color"
+        android:textAllCaps="false"
+        android:textSize="20sp"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvQuenMK"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="5dp"-->
+<!--        android:layout_toRightOf="@id/txt_dang_nhap_3"-->
+<!--        android:text="Quên mật khẩu?"-->
+<!--        android:textColor="@color/purple_500"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_gravity="center_horizontal"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txt_dang_nhap_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtV_dang_nhap_3"
+            android:textColor="#333"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_chua_co_tai_khoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/txt_dang_nhap_3"
+            android:text="@string/txtV_dang_nhap_4"
+            android:textColor="@color/button_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</LinearLayout>

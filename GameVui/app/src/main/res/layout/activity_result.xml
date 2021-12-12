@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/android_result" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtV_ket_qua_1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/red_200"/>
+
+    <TextView
+        android:id="@+id/tv_diem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="0"
+        android:textStyle="bold"
+        android:textColor="@color/red_200"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_playagain"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="23dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_choi_lai"
+        android:textSize="18sp"
+        android:textAllCaps="false"
+        android:textColor="@color/text_color"
+        android:backgroundTint="@color/button_color"/>
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_Rank"-->
+<!--        android:layout_width="220dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginTop="23dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="@string/btn_bang_xep_hang"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/text_color"-->
+<!--        android:backgroundTint="@color/button_color"/>-->
+
+</LinearLayout>

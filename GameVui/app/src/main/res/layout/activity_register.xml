@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtV_dang_ky_1"
+        android:textSize="35dp"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/edtHo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dangky_white"
+            android:hint="Họ"
+            android:padding="15dp"
+            android:textColor="#333"
+            android:textColorHint="#ccc"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtTen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dangky_white"
+            android:hint="Tên"
+            android:padding="15dp"
+            android:textColor="#333"
+            android:textColorHint="#ccc"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtGmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_dangky_white"
+        android:hint="Nhập gmail"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="#333"
+        android:textColorHint="#ccc"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bg_dangky_white"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="#333"
+        android:textColorHint="#ccc"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtRePass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_dangky_white"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="#333"
+        android:textColorHint="#ccc"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:padding="15dp"
+        android:text="@string/btn_dang_ky"
+        android:textColor="@color/text_color"
+        android:backgroundTint="@color/button_color"
+        android:textAllCaps="false"
+        android:textSize="25sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txt_dang_ky_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:text="@string/txtV_dang_ky_2"
+            android:textColor="#333"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_dang_ky_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/txt_dang_ky_2"
+            android:text="@string/txtV_dang_ky_3"
+            android:textColor="@color/button_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

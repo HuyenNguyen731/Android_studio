@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GameVui</string>
+    <string name="txtV_dang_nhap_1">Đăng nhập ngay để bắt đầu chơi</string>
+    <string name="txtV_dang_nhap_2">Đăng nhập</string>
+    <string name="btn_dang_nhap">Đăng nhập</string>
+    <string name="txtV_dang_nhap_3">Chưa có tài khoản?</string>
+    <string name="txtV_dang_nhap_4">Đăng ký ngay</string>
+    <string name="txtV_dang_ky_1">Đăng ký tài khoản</string>
+    <string name="btn_dang_ky">Đăng ký</string>
+    <string name="txtV_dang_ky_2">Đã có tài khoản?</string>
+    <string name="txtV_dang_ky_3">Đăng nhập</string>
+    <string name="txtV_ket_qua_1">Tổng điểm: </string>
+    <string name="btn_choi_lai">Chơi lại</string>
+    <string name="btn_bang_xep_hang">Bảng xếp hạng</string>
+
+    <string name="ad_id_splash">testd7c5cewoj6</string>
+    <string name="ad_id_splash_landscape">testq6zq98hecj</string>
+    <string name="copyright_info">Copyright 2020. X Technologies Co., Ltd</string>
+    <string name="status_load_ad_success">Ad loading state: loaded successfully.</string>
+    <string name="status_load_ad_fail">Ad loading state: failed to be loaded. Error code: </string>
+    <string name="status_ad_dismissed">Ad is dismissed.</string>
+</resources>
